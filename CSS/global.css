@@ -1,0 +1,325 @@
+
+body{
+    font-family: "Rubic", sans-serif;
+}
+ .landing .container{
+    position: relative;
+    display: flex;
+    background-color: whitesmoke;
+    width: 1440px;
+    height: 115vh;
+ 
+    overflow: hidden;
+    
+}
+
+.landing .res{
+    width: 411px;
+    height: 126vh;
+    background-image: linear-gradient(566deg, hsl(293, 100%, 63%),hsl(264, 100%, 61%) );
+    border-radius: 212px;
+    margin-top: -179px;
+    margin-left: -99px;
+}
+.landing .box{
+    position: relative;
+    width: 319px;
+    height: 608px;
+    background-color: white;
+    border-radius: 37px;
+    margin-top: 121px;
+    margin-left: -35px;
+    box-shadow: 6px 14px 16px 1px rgb(0 0 0 / 4%);
+    clip-path: inset(0px -15px -44px 0px);
+}
+
+.landing .info{
+    width: 427px;
+    height: 300px;
+    margin-left: 140px;
+    transform: translateY(50%);
+    margin-top: 100px;
+    z-index: 1;
+}
+.landing .info p{
+    font-weight: 500px;
+    color: hsl(270, 7%, 64%);
+    
+}
+.landing .info h1{
+    color: hsl(271, 36%, 24%)
+}
+.landing .end{
+    position: absolute;
+    width: 469px;
+    height: 127vh;
+    background-image: linear-gradient(519deg,#f4f2f2 26% , #f4f2f2 26% ,hsl(289deg 87% 80% / 6%) 29% );
+    border-radius: 243px;
+    margin-top: 89px;
+    margin-left: 1091px;
+}
+.box .workflow{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 293px;
+    height: 589px;
+    margin: 12px;
+    border-radius: 37px;
+}
+.box .workflow .top{
+    position: relative;
+    background-image: linear-gradient(566deg, hsl(293, 100%, 63%),hsl(264, 100%, 61%) );
+    width: 293px;
+    height: 85px;
+    border-radius: 19px 19px 6px 6px;
+  
+}
+.box .workflow .top::before{
+    content: "";
+    position: absolute;
+    width: 161px;
+    height: 37px;
+    z-index: 100;
+    left: 72px;
+    margin-top: -14px;
+    background-color: white;
+    border-radius: 20px;
+}
+.box .top img{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    padding: 40px;
+    position: absolute;
+    top: 6px;
+}
+.box h3{
+    position: absolute;
+    top: 34px;
+    left: 81px;
+    color: white;
+    font-size: 14px;
+}
+.box h5{
+position: absolute;
+top: 49px;
+left: 83px;
+font-size: 11px;
+font-weight: 100;
+color: hsl(270, 7%, 64%);;
+}
+.box .top i:first-of-type {
+    position: absolute;
+    left: 21px;
+    top: 57px;
+    color: white;
+}
+.box .top i:last-of-type {
+    position: absolute;
+    right: 21px;
+    top: 57px;
+    color: white;
+}
+.box .A {
+    
+    position: relative;
+    left: 10px;
+    width: 144px;
+    height: 28px;
+    font-size: 11px;
+    background-color: #80808021;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 19px 19px 19px 5px;
+}
+.box .A p{
+    position: absolute;
+    top: 0;
+}
+.box .B {
+    position: relative;
+    width: 144px;
+    height: 28px;
+    left: 10px;
+    font-size: 11px;
+    background-color: #80808021;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 19px 19px 19px 5px;
+}
+.box .B p{
+    position: absolute;
+    top: 0;
+}
+.box .pic{
+    position: absolute;
+    display: flex;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    right: 96px;
+    
+}
+.box .pic img{
+    margin: 5px;
+    border-radius:22%;
+}
+.box .C {
+    position: relative;
+    width: 144px;
+    height: 28px;
+    font-size: 11px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px 15px 0 15px;
+    left: 120px;
+    top: 50px;
+}
+.box .C p{
+    position: absolute;
+    top: 0;
+}
+.box .D {
+    position: relative;
+    width: 89px;
+    height: 12px;
+    font-size: 11px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px 15px 0 15px;
+    left: 173px;
+    top: 50px;
+}
+.box .D p{
+    position: absolute;
+    top: 0;
+}
+.box .E {
+    position: relative;
+    width: 151px;
+    height: 37px;
+    left: 10px;
+    font-size: 11px;
+    background-color: #80808021;
+    padding: 10px;
+    margin-top: 61px;
+    border-radius: 8px;
+}
+.box .E p{
+    position: absolute;
+    top: 0;
+}
+.box .F{
+    display: flex;
+    position: relative;
+    left: 10px;
+    width: 200px;
+    height: 24px;
+    font-size: 11px;
+    background-image: linear-gradient(566deg, hsl(293, 100%, 63%),hsl(264, 100%, 61%) );
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px 15px 15px 5px;
+
+}
+.box .F span{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+}
+.box .F p{
+    padding-left: 30px;
+}
+.box .F::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ffffff5e;
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    left: 13px;
+}
+.box .F p{
+    
+    color:#ffffffbf; 
+}
+.box .G{
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 24px;
+    left: 10px;
+    font-size: 11px;
+    background-image: linear-gradient(566deg, hsl(293, 100%, 63%),hsl(264, 100%, 61%) );
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px 15px 15px 5px;
+
+}
+.box .G span{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+}
+.box .G p{
+    padding-left: 30px;
+}
+.box .G::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ffffff5e;
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    left: 13px;
+}
+.box .G p{
+    
+    color:#ffffffbf; 
+}
+.box .form{
+    padding-top: 15px;
+}
+.box .H{
+    Display: flex;
+    position: relative;
+    width: 257px;
+    left: 1px;
+    height: 31px;
+    font-size: 11px;
+    padding: 6px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 8px;
+}
+.box .H p{
+  color:#0000005c; 
+  padding-left: 20px; 
+}
+.box .H i{
+position: absolute;
+width: 28px;
+height: 20px;
+right: 7px;
+top: 7px;
+color: #f9f4f4;
+border: 1px solid #f9f4f4;
+font-size: 14px;
+border-radius: 50%;
+background-color: hsl(261deg 39% 23%);
+text-align: center;
+margin-top: 0px;
+padding-top: 6px;
+}
+
